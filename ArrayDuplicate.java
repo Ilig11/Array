@@ -2,16 +2,17 @@
   Sec&Sub: CC13.1 - A
   Task: Write a program in java that reads 20 integers, and store them in an array. 
         The program should be able to identify how many numbers have duplicates. 
-		Output the number with duplicates and the number of times it appears on the array.
-			Example:
-				(input)
-				40, 50, 60, 50, 40, 40, 10, 10, 5, 50, 19, 10, 5, 3, 4, 1, 8, 9, 0, 100
+	
+	Output the number with duplicates and the number of times it appears on the array.
+		Example:
+			(input)
+			40, 50, 60, 50, 40, 40, 10, 10, 5, 50, 19, 10, 5, 3, 4, 1, 8, 9, 0, 100
 
-				(output)    
-				40 = 3
-				50 = 3 
-				10 = 3
-				5  = 2
+			(output)    
+			40 = 3
+			50 = 3 
+			10 = 3
+			5  = 2
   Date: June 3, 2021
 */ 
 
