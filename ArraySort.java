@@ -1,7 +1,7 @@
 /*Name: CRAIG CHRISTOPHER N. ABQUINA
   Sec&Sub: CC13.1 - A
   Task: Write a program in java that accepts 20 integers, and sort the contents of the array in ascending order, then output the result.
-		note: implement / write your own code in sorting the array.
+	note: implement / write your own code in sorting the array.
   Date: June 3, 2021
 */
 
