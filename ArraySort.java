@@ -27,7 +27,7 @@ public class ArraySort {
             }
         }
         
-		System.out.print("Ascending Order: ");
+	System.out.print("Ascending Order: ");
         for (int i = 0; i < Array.length - 1; i++) {
             System.out.print(Array[i] + "->");
         }
