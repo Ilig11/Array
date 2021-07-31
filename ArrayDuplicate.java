@@ -18,11 +18,11 @@
 import java.util.*; 
 public class ArrayDuplicate { 
     public static void main(String[] args) { 
-        Scanner input = new Scanner(System.in); 				// Take input from the user
+        Scanner input = new Scanner(System.in); 					// Take input from the user
         int Array[] = new int[20];     							// Declare the Array
         System.out.println("Please enter the array elements:");
         for(int i=0; i<Array.length ;i++) {
-            Array [i] = input.nextInt();     					// Initialize Array elements
+            Array [i] = input.nextInt();     						// Initialize Array elements
         }
         
         int max = Integer.MIN_VALUE; 							// Integer.MIN_VALUE = -2147483648
@@ -31,14 +31,14 @@ public class ArrayDuplicate {
                 max = Array[i]; 
         } 
   
-        int Frequency[] = new int[max + 1];     				// Declare another Array to store the frequency
+        int Frequency[] = new int[max + 1];     					// Declare another Array to store the frequency
         for (int i = 0; i < Array.length; i++) { 
-            Frequency[Array[i]]++; 								// Increment in Frequency[] for every integer in Array[]. 
+            Frequency[Array[i]]++; 							// Increment in Frequency[] for every integer in Array[]. 
         } 
         
         System.out.println("Output:");
         for (int i = 0; i < max; i++) {  
-            if (Frequency[i] > 1) 								// output only if element is more than 1 time in Array[].
+            if (Frequency[i] > 1) 							// output only if element is more than 1 time in Array[].
                 System.out.println(i + " = " + Frequency[i]); 
         } 
     } 
